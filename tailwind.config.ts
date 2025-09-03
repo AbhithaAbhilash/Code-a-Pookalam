@@ -26,11 +26,13 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					foreground: 'hsl(var(--secondary-foreground))',
+					glow: 'hsl(var(--secondary-glow))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -52,6 +54,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				chrysanthemum: {
+					DEFAULT: 'hsl(var(--chrysanthemum))',
+					foreground: 'hsl(var(--chrysanthemum-foreground))'
+				},
+				leaf: {
+					DEFAULT: 'hsl(var(--leaf))',
+					glow: 'hsl(var(--leaf-glow))'
+				},
+				tech: {
+					primary: 'hsl(var(--tech-primary))',
+					secondary: 'hsl(var(--tech-secondary))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +76,20 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-festival': 'var(--gradient-festival)',
+				'gradient-petal': 'var(--gradient-petal)',
+				'gradient-leaf': 'var(--gradient-leaf)',
+				'gradient-glow': 'var(--gradient-glow)'
+			},
+			boxShadow: {
+				'festival': 'var(--shadow-festival)',
+				'petal': 'var(--shadow-petal)',
+				'leaf': 'var(--shadow-leaf)'
+			},
+			transitionTimingFunction: {
+				'festival': 'cubic-bezier(0.4, 0, 0.2, 1)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

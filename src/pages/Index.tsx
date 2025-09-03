@@ -1,11 +1,23 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Header } from "@/components/Header";
+import { PookalamCanvas } from "@/components/PookalamCanvas";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-background">
+      <div className="relative">
+        {/* Background glow effect */}
+        <div className="absolute inset-0 bg-gradient-glow opacity-20 pointer-events-none" />
+        
+        <main className="relative z-10">
+          <Header />
+          
+          <section className="container mx-auto px-4 py-8">
+            <PookalamCanvas />
+          </section>
+          
+          <Footer />
+        </main>
       </div>
     </div>
   );
