@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Code-a-Pookalam
 
 ## Project info
 
